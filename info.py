@@ -17,7 +17,7 @@ API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 PORT = int(environ.get("PORT", "8080"))
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
-OWNER_USERNAME = environ.get("OWNER_USERNAME", "BOT_OWNER26")
+OWNER_USERNAME = environ.get("OWNER_USERNAME", "RishuBotz_Bot")
 
 # =========================================================
 # 💾 DATABASE CONFIGURATION
@@ -28,18 +28,18 @@ DB_NAME = environ.get("DATABASE_NAME", "testing")
 # =========================================================
 # 📢 CHANNELS & ADMINS
 # =========================================================
-ADMINS = int(environ.get("ADMINS", "0"))
+ADMINS = int(environ.get("ADMINS", "6286894502"))
 
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "0"))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", "0"))
-VERIFIED_LOG = int(environ.get("VERIFIED_LOG", "0"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002935300495"))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", "-1002935300495"))
+VERIFIED_LOG = int(environ.get("VERIFIED_LOG", "-1002935300495"))
 
-POST_CHANNEL = int(environ.get("POST_CHANNEL", "0"))
-VIDEO_CHANNEL = int(environ.get("VIDEO_CHANNEL", "0"))
-BRAZZER_CHANNEL = int(environ.get("BRAZZER_CHANNEL", "0"))
+POST_CHANNEL = int(environ.get("POST_CHANNEL", "-1002935300495"))
+VIDEO_CHANNEL = int(environ.get("VIDEO_CHANNEL", "-1003438674780"))
+BRAZZER_CHANNEL = int(environ.get("BRAZZER_CHANNEL", "-1003428737875"))
 
 # Auth channels list
-auth_channel_str = environ.get("AUTH_CHANNEL", "")
+auth_channel_str = environ.get("AUTH_CHANNEL", "-1003001351178")
 AUTH_CHANNEL = [int(x) for x in auth_channel_str.split() if x.strip().lstrip("-").isdigit()]
 
 # =========================================================
@@ -53,9 +53,9 @@ SEND_POST = str_to_bool(environ.get("SEND_POST"), False)
 # =========================================================
 # 🔢 LIMITS
 # =========================================================
-DAILY_LIMIT = int(environ.get("DAILY_LIMIT", "5"))
-VERIFICATION_DAILY_LIMIT = int(environ.get("VERIFICATION_DAILY_LIMIT", "20"))
-PREMIUM_DAILY_LIMIT = int(environ.get("PREMIUM_DAILY_LIMIT", "50"))
+DAILY_LIMIT = int(environ.get("DAILY_LIMIT", "2"))
+VERIFICATION_DAILY_LIMIT = int(environ.get("VERIFICATION_DAILY_LIMIT", "10"))
+PREMIUM_DAILY_LIMIT = int(environ.get("PREMIUM_DAILY_LIMIT", "30"))
 
 # =========================================================
 # 🔗 SHORTLINK & VERIFICATION
@@ -71,7 +71,7 @@ TUTORIAL_LINK = environ.get("TUTORIAL_LINK", "")
 # 💳 PAYMENT SETTINGS
 # =========================================================
 UPI_ID = environ.get("UPI_ID", "")
-QR_CODE_IMAGE = environ.get("QR_CODE_IMAGE", "")
+QR_CODE_IMAGE = environ.get("QR_CODE_IMAGE", "https://graph.org/file/cd8a38a7faf563e66fd99-9b0d740742deeaa30a.jpg")
 
 # =========================================================
 # 🖼️ IMAGES
