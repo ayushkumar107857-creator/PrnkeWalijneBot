@@ -70,16 +70,16 @@ TUTORIAL_LINK = environ.get("TUTORIAL_LINK", "")
 # =========================================================
 # 💳 PAYMENT SETTINGS
 # =========================================================
-UPI_ID = environ.get("UPI_ID", "")
+UPI_ID = environ.get("UPI_ID", "@fam")
 QR_CODE_IMAGE = environ.get("QR_CODE_IMAGE", "https://graph.org/file/cd8a38a7faf563e66fd99-9b0d740742deeaa30a.jpg")
 
 # =========================================================
 # 🖼️ IMAGES
 # =========================================================
-START_PIC = environ.get("START_PIC", "")
-AUTH_PICS = environ.get("AUTH_PICS", "")
-VERIFY_IMG = environ.get("VERIFY_IMG", "")
-NO_IMG = environ.get("NO_IMG", "")
+START_PIC = environ.get("START_PIC", "https://graph.org/file/d54d1586eb2f4a4e5d1ad-2c9b97e9c711a72bea.jpg")
+AUTH_PICS = environ.get("AUTH_PICS", "https://graph.org/file/35f48240154fba008389a-92a97d0ffdeeaf3b0d.jpg")
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/fef31a5b22070ac83eb40-46237caa18803737e1.jpg")
+NO_IMG = environ.get("NO_IMG", "https://graph.org/file/fef31a5b22070ac83eb40-46237caa18803737e1.jpg")
 
 # =========================================================
 # 🌐 WEB APP
